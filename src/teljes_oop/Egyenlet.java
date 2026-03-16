@@ -24,8 +24,11 @@ public class Egyenlet {
         return db; 
     }
     
-    public boolean megoldasE(int x, int y, int z){
+    public boolean feltetelEgy(int x, int y, int z){
         return s*x + k*y + j*z == db;
+    }
+    public boolean feltetelKetto(int x, int y, int z){
+        return x+y+z == db;
     }
 }
 
